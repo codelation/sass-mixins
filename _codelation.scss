@@ -9,14 +9,14 @@ $max-width: 1024px !default;
 $mobile-breakpoint: 767px !default;
 
 @import "bourbon";
-@import "codelation/functions/color";
-@import "codelation/functions/text_color";
-@import "codelation/mixins/center_children";
-@import "codelation/mixins/col_span";
-@import "codelation/mixins/has_cards";
-@import "codelation/mixins/has_columns";
-@import "codelation/mixins/has_grid";
-@import "codelation/mixins/outer_container";
+@import "functions/color";
+@import "functions/text_color";
+@import "mixins/center_children";
+@import "mixins/col_span";
+@import "mixins/has_cards";
+@import "mixins/has_columns";
+@import "mixins/has_grid";
+@import "mixins/outer_container";
 @import "normalize";
 
 // Border Box by default for all elements

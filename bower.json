@@ -1,7 +1,7 @@
 {
   "name": "codelation-sass-mixins",
   "description": "A collection of Sass functions and mixins used by Codelation.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "authors": [
     "Brian Pattison <brian@brianpattison.com>"
   ],
