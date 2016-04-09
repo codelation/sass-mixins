@@ -1,0 +1,24 @@
+{
+  "name": "codelation-sass-mixins",
+  "authors": [
+    "Brian Pattison <brian@brianpattison.com>"
+  ],
+  "description": "A collection of Sass functions and mixins used by Codelation.",
+  "main": "_codelation.scss",
+  "keywords": [
+    "codelation",
+    "columns",
+    "flexbox",
+    "grid",
+    "sass"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/codelation/sass-mixins",
+  "ignore": [
+    "bower_components"
+  ],
+  "dependencies": {
+    "bourbon": "^4.2.6",
+    "normalize-css": "^4.0.0"
+  }
+}
