@@ -17,17 +17,3 @@ $mobile-breakpoint: 767px !default;
 @import "mixins/has_columns";
 @import "mixins/has_grid";
 @import "mixins/outer_container";
-@import "normalize";
-
-// Border Box by default for all elements
-html { // http://bit.ly/1qk2tVR
-  box-sizing: border-box;
-}
-
-* {
-  &,
-  &::after,
-  &::before {
-    box-sizing: inherit;
-  }
-}
