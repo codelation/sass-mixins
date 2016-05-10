@@ -18,7 +18,6 @@
     "bower_components"
   ],
   "dependencies": {
-    "bourbon": "^4.2.6",
-    "normalize-css": "^4.0.0"
+    "bourbon": "^4.2.6"
   }
 }
