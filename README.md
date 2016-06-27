@@ -60,7 +60,7 @@ be obvious about a button looking like a button.
 This mixin uses flexbox to center the child elements horizontally and vertically inside the element.
 A good use case is centering an image of unknown height inside a container with a fixed height.
 
-##### has-cards($columns, $margin: 0)
+##### has-cards($columns, $margin: 0, $column-class: "auto", $mobile: "auto")
 
 This mixin uses flexbox to create a cards layout like that used by Google Material Design. The
 mixin is used on the container element. This will create a fixed margin between each card element
@@ -97,7 +97,7 @@ Example:
 }
 ```
 
-##### has-columns($columns: 0, $gutter: 0, $grow: true)
+##### has-columns($columns: 0, $gutter: 0, $column-class: "auto", $mobile: "auto", $grow: true)
 
 This mixin uses flexbox to create a layout with the specified number of columns that
 stretch to fill the container's height. The given gutter size will the margin between
@@ -186,7 +186,7 @@ Example:
 }
 ```
 
-##### has-grid($columns, $gutter: 0)
+##### has-grid($columns, $gutter: 0, $column-class: "auto", $mobile: "auto")
 
 This mixin uses flexbox to create a grid layout with an unknown number of child elements.
 Each child element will have the same width and they will stretch to be the same height.
@@ -216,6 +216,17 @@ Example:
 // There will be a margin of 1em between the rows.
 .products {
   @include has-grid(3, 1em);
+}
+```
+
+##### Opting out of mobile styles
+
+Each of the Sass mixins for creating columns with flexbox include a `$mobile` parameter. By default,
+styles are applied on mobile devices to stack columns. This may not always be the desired behavior.
+
+```scss
+.i-want-columns-on-desktop-and-mobile {
+  @include has-columns($mobile: false);
 }
 ```
 
