@@ -9,7 +9,6 @@ A collection of SCSS functions and mixins by [Codelation](https://codelation.com
 ### Included Sass/CSS Libraries
 
 - [Bourbon](http://bourbon.io) - A simple and lightweight mixin library for Sass.
-- [Normalize.css](https://necolas.github.io/normalize.css/) - A modern, HTML5-ready alternative to CSS resets
 
 ### Sass Functions and Mixins
 
